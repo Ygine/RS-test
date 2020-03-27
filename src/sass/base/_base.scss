@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  font-family: "Arial", "Roboto", sans-serif;
+  color: #3e3e3e;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button{
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper{
+  height: 100%;
+  padding: 10px;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
